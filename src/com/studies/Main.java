@@ -4,7 +4,7 @@ public class Main {
 
     static int number = 1;
 
-    static private Animal a = new Animal("Gabriel", 10);
+    static final private Animal a = new Animal("Gabriel", 10);
 
     public static void main(String[] args) {
         System.out.println("Test Number: " + number);
